@@ -53,6 +53,7 @@ struct ResponseBody: Decodable {
         var temp_max: Double
         var pressure: Double
         var humidity: Double
+        var sea_level: Int
     }
     
     struct WindResponse: Decodable {
